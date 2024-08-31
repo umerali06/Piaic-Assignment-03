@@ -1,0 +1,243 @@
+[
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "currentYear",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "currentYear = datetime.now().year\n# print(currentYear)\nbirthYear = int(input(\"Enter your birth year: \"))\n# print(birthYear)\nage = currentYear - birthYear\n# print(age)\nprint(f\"Your Age is: {age}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#2:\n# Write a program that calculates the area of a rectangle using length and width variables?",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "birthYear",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "birthYear = int(input(\"Enter your birth year: \"))\n# print(birthYear)\nage = currentYear - birthYear\n# print(age)\nprint(f\"Your Age is: {age}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#2:\n# Write a program that calculates the area of a rectangle using length and width variables?\n# Solution:\nlength = float(input(\"Enter the length of the rectangle: \"))",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "age = currentYear - birthYear\n# print(age)\nprint(f\"Your Age is: {age}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#2:\n# Write a program that calculates the area of a rectangle using length and width variables?\n# Solution:\nlength = float(input(\"Enter the length of the rectangle: \"))\n# print(length)\nwidth = float(input(\"Enter the width of the rectangle: \"))",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "length = float(input(\"Enter the length of the rectangle: \"))\n# print(length)\nwidth = float(input(\"Enter the width of the rectangle: \"))\n# print(width)\narea = length * width\n# print(area)\nprint(f\"The area of the rectangle is: {area}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#3:\n# Write a program that calculates the area of a circle.",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "width = float(input(\"Enter the width of the rectangle: \"))\n# print(width)\narea = length * width\n# print(area)\nprint(f\"The area of the rectangle is: {area}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#3:\n# Write a program that calculates the area of a circle.\n# Solution:\nfrom math import pi",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "area = length * width\n# print(area)\nprint(f\"The area of the rectangle is: {area}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#3:\n# Write a program that calculates the area of a circle.\n# Solution:\nfrom math import pi\nradius = float(input(\"Enter the Radius of the Circle: \"))\n# print(radius)",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "radius = float(input(\"Enter the Radius of the Circle: \"))\n# print(radius)\narea = pi*(radius**2)\n# print(area)\nprint(f\"The area of the circle is: {area:.2f}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#4:\n# Write a program that calculates the area of the cube.\n# Solution:\nside = float(input(\"Enter the Side Length: \"))",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "area = pi*(radius**2)\n# print(area)\nprint(f\"The area of the circle is: {area:.2f}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#4:\n# Write a program that calculates the area of the cube.\n# Solution:\nside = float(input(\"Enter the Side Length: \"))\n# print(side)\narea = 6 * (side**2)",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "side",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "side = float(input(\"Enter the Side Length: \"))\n# print(side)\narea = 6 * (side**2)\n# print(area)\nprint(f\"The area of the cube is: {area:.2f}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#5:\n# Create a program that converts a temperature from Fahrenheit to Celsius and vice versa using a variable.\n# Solution:\ntemperature = float(input(\"Enter the Temperature: \"))",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "area = 6 * (side**2)\n# print(area)\nprint(f\"The area of the cube is: {area:.2f}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#5:\n# Create a program that converts a temperature from Fahrenheit to Celsius and vice versa using a variable.\n# Solution:\ntemperature = float(input(\"Enter the Temperature: \"))\nprint(temperature)\nunit = input(\"Enter the unit Value (C/F):\")",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "temperature",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "temperature = float(input(\"Enter the Temperature: \"))\nprint(temperature)\nunit = input(\"Enter the unit Value (C/F):\")\n# Fahrenheit to Celsius conversion:\nif unit.upper() == \"C\":\n  celsius = (temperature - 32) * 5/9\n  print(f\"{temperature}°F is equal to {celsius:.2f}°C\")\n# Celsius to Fahrenheit conversion:\nelif unit.upper() == \"F\":\n    fahrenheit = (temperature * 9/5) + 32",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "unit",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "unit = input(\"Enter the unit Value (C/F):\")\n# Fahrenheit to Celsius conversion:\nif unit.upper() == \"C\":\n  celsius = (temperature - 32) * 5/9\n  print(f\"{temperature}°F is equal to {celsius:.2f}°C\")\n# Celsius to Fahrenheit conversion:\nelif unit.upper() == \"F\":\n    fahrenheit = (temperature * 9/5) + 32\n    print(f\"{temperature}°C is equal to {fahrenheit:.2f}°F\")\nelse:",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "seconds",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "seconds = int(input(\"Enter the number of seconds: \"))\nminutes = seconds // 60\nseconds = seconds % 60\nprint(f\"{seconds} seconds is equal to {minutes} minutes and {seconds} seconds.\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#7:\n# Write a program that calculates the percentage.?\n# Solution:",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "minutes",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "minutes = seconds // 60\nseconds = seconds % 60\nprint(f\"{seconds} seconds is equal to {minutes} minutes and {seconds} seconds.\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#7:\n# Write a program that calculates the percentage.?\n# Solution:\nobtained_marks = int(input(\"Enter Your Obtained Marks: \"))",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "seconds",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "seconds = seconds % 60\nprint(f\"{seconds} seconds is equal to {minutes} minutes and {seconds} seconds.\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#7:\n# Write a program that calculates the percentage.?\n# Solution:\nobtained_marks = int(input(\"Enter Your Obtained Marks: \"))\n# print(obtained_marks)\ntotal_marks = int(input(\"Enter the Total Marks: \"))",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "obtained_marks",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "obtained_marks = int(input(\"Enter Your Obtained Marks: \"))\n# print(obtained_marks)\ntotal_marks = int(input(\"Enter the Total Marks: \"))\n# print(total_marks)\npercentage = (obtained_marks/total_marks)*100\n# print(percentage)\nprint(f\"Your Percentage Marks : {percentage}%\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#8:\n# Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variables.",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "total_marks",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "total_marks = int(input(\"Enter the Total Marks: \"))\n# print(total_marks)\npercentage = (obtained_marks/total_marks)*100\n# print(percentage)\nprint(f\"Your Percentage Marks : {percentage}%\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#8:\n# Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variables.\n# Solution:\n# Define the height and weight variables",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "percentage",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "percentage = (obtained_marks/total_marks)*100\n# print(percentage)\nprint(f\"Your Percentage Marks : {percentage}%\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#8:\n# Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variables.\n# Solution:\n# Define the height and weight variables\nheight = float(input(\"Enter your height in meters: \"))\nweight = float(input(\"Enter your weight in kilograms: \"))",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "height = float(input(\"Enter your height in meters: \"))\nweight = float(input(\"Enter your weight in kilograms: \"))\n# Calculate the BMI\nbmi = weight / (height ** 2)\n# Print the BMI\nprint(\"Your BMI is:\", bmi)\n# Determine the BMI category\nif bmi < 18.5:\n    print(\"You are underweight.\")\nelif bmi < 25:",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "weight",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "weight = float(input(\"Enter your weight in kilograms: \"))\n# Calculate the BMI\nbmi = weight / (height ** 2)\n# Print the BMI\nprint(\"Your BMI is:\", bmi)\n# Determine the BMI category\nif bmi < 18.5:\n    print(\"You are underweight.\")\nelif bmi < 25:\n    print(\"You are normal weight.\")",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "bmi",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "bmi = weight / (height ** 2)\n# Print the BMI\nprint(\"Your BMI is:\", bmi)\n# Determine the BMI category\nif bmi < 18.5:\n    print(\"You are underweight.\")\nelif bmi < 25:\n    print(\"You are normal weight.\")\nelif bmi < 30:\n    print(\"You are overweight.\")",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "radius = float(input(\"Enter the radius of the cylinder: \"))\nheight = float(input(\"Enter the height of the cylinder: \"))\nvolume = math.pi * (radius ** 2) * height\nprint(\"\\n||-----------------Question End------------------||\\n\")",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "height = float(input(\"Enter the height of the cylinder: \"))\nvolume = math.pi * (radius ** 2) * height\nprint(\"\\n||-----------------Question End------------------||\\n\")",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "volume",
+        "kind": 5,
+        "importPath": "Piaic-assignment-03",
+        "description": "Piaic-assignment-03",
+        "peekOfCode": "volume = math.pi * (radius ** 2) * height\nprint(\"\\n||-----------------Question End------------------||\\n\")",
+        "detail": "Piaic-assignment-03",
+        "documentation": {}
+    }
+]
